@@ -1,0 +1,12 @@
+body {
+  background-color: aqua;
+}
+
+.accept-btn {
+  color: gold;
+}
+
+.accept-btn:hover {
+  background-color: aqua;
+}
+/*# sourceMappingURL=main.css.map */
