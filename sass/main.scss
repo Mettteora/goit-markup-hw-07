@@ -1,11 +1,5 @@
-body{
-    background-color: aqua;
-}
-
-.accept-btn{
-    color:  gold;
-    &:hover{
-        background-color: aqua;
-    }
-    
-}
+@import "./utils/variables.scss";
+@import "./components/components.scss";
+@import "./header";
+@import "./hero";
+@import "./description";
