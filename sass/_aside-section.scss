@@ -1,0 +1,42 @@
+.aside-section {
+   padding-top: 0;
+
+}
+
+
+.aside-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+.aside-list {
+    display: flex;
+}
+
+.aside-post-text{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 16px;
+    background-color: rgba(47, 48, 58, 0.8);
+   text-transform: uppercase;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.aside-item{
+    position: relative;
+}
+.aside-item:not( :last-child){
+    margin-right: 30px;
+}

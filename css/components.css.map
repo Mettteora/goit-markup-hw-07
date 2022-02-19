@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,CAAC;CACZ;;AAED,AAAA,KAAK,CAAA;EACD,aAAa,CAAA,MAAC;EACd,mBAAmB,CAAA,SAAC;EACpB,kBAAkB,CAAA,QAAC;EACnB,kBAAkB,CAAA,QAAC;CAEtB",
-    "sources": [
-        "../sass/components/components.scss"
-    ],
-    "names": [],
-    "file": "components.css"
-}
