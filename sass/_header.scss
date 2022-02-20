@@ -61,20 +61,14 @@ margin-right: 50px;
 
 }
 
-.header-link:hover{
-    color:var(--main-color-blue-);
-    fill: var(--main-color-blue-);
-   
-}
-
 .header-link{
       transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
-}
+      &:hover,
+      &:focus{
+          color:var(--main-color-blue-);
+          fill: var(--main-color-blue-);
+      }
 
-.header-link:focus{
-    color: var(--main-color-blue-);
-    fill: var(--main-color-blue-);
-   
 
 }
 
@@ -97,12 +91,11 @@ margin-right: 50px;
 .header-link-item{
 display: flex;
 align-items: center;
+&:hover{
+        color: var(--main-color-blue-);
+        fill: var(--main-color-blue-);
+        transition: 250ms
 }
-
-.header-link-item:hover{
-    color: var(--main-color-blue-);
-    fill: var(--main-color-blue-);
-    transition: 250ms
 }
 
 .header-icon{
@@ -110,7 +103,13 @@ align-items: center;
     height: 12px;
     margin-right: 10px;   
     justify-content: center;
-    align-items: center
+    align-items: center;
+    &:hover{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: #2196F3;
+    }
 }
 
 .header-icon-smart{
@@ -121,44 +120,13 @@ align-items: center;
     margin-right: 10px;
 }
 
-.header-icon:hover{
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    fill: #2196F3;
-}
 
-.heder-link-item:not( :last-child){
-
-}
-
-.heder-link-item:hover{
-color: #2196F3;
-transition: 250ms
-}
-
-.section-hero {
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #2F303A;
-    padding: 200px 0;
-    text-align: center;
-    background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)),
-    url(../images/backgound.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 .header-link-icon{
     width: 12px;
     height: 16px;
-}
-
-.header-link-icon:hover{
-    width: 12px;
-    height: 16px;
+    &:hover{
+        width: 12px;
+        height: 16px;
+    }
 }

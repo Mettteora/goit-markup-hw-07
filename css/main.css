@@ -166,17 +166,11 @@ button {
   margin-right: 50px;
 }
 
-.header-link:hover {
-  color: var(--main-color-blue-);
-  fill: var(--main-color-blue-);
-}
-
 .header-link {
   -webkit-transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
   transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
-
-.header-link:focus {
+.header-link:hover, .header-link:focus {
   color: var(--main-color-blue-);
   fill: var(--main-color-blue-);
 }
@@ -204,7 +198,6 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .header-link-item:hover {
   color: var(--main-color-blue-);
   fill: var(--main-color-blue-);
@@ -223,6 +216,12 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
+.header-icon:hover {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #2196F3;
+}
 
 .header-icon-smart {
   width: 10px;
@@ -236,38 +235,10 @@ button {
   margin-right: 10px;
 }
 
-.header-icon:hover {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  fill: #2196F3;
-}
-
-.heder-link-item:hover {
-  color: #2196F3;
-  -webkit-transition: 250ms;
-  transition: 250ms;
-}
-
-.section-hero {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #2F303A;
-  padding: 200px 0;
-  text-align: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/backgound.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgound.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .header-link-icon {
   width: 12px;
   height: 16px;
 }
-
 .header-link-icon:hover {
   width: 12px;
   height: 16px;
@@ -299,6 +270,20 @@ button {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section-hero {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #2F303A;
+  padding: 200px 0;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/backgound.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgound.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .description-list {
@@ -490,14 +475,10 @@ button {
   -webkit-transition: background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
   transition: background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
-
-.team-link:hover,
-.team-link:focus {
+.team-link:hover, .team-link:focus {
   background-color: var(--main-color-blue-);
 }
-
-.team-link:hover .team-icon,
-.team-link:focus .team-icon {
+.team-link:hover .team-icon, .team-link:focus .team-icon {
   fill: var(--main-color-);
   border-color: var(--main-color-blue-);
 }
@@ -528,26 +509,6 @@ button {
   height: 92px;
 }
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  border-color: #2196F3;
-  fill: #2196F3;
-  -webkit-transition: fill 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
-  transition: fill 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
-}
-
-.clients-link:hover {
-  border-color: var(--main-color-blue-);
-  -webkit-transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
-  transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
-}
-
-.clients-link:focus {
-  border-color: var(--main-color-blue-);
-  -webkit-transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
-  transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
-}
-
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -570,6 +531,20 @@ button {
           justify-content: center;
   -webkit-transition: border-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
   transition: border-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.clients-link:hover .clients-icon, .clients-link:focus .clients-icon {
+  border-color: #2196F3;
+  fill: #2196F3;
+  -webkit-transition: border-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: border-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  border-color: var(--main-color-blue-);
+  -webkit-transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.clients-link:hover, .clients-link:focus {
+  border-color: var(--main-color-blue-);
+  -webkit-transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 .clients-icon {
@@ -702,14 +677,6 @@ button {
   margin-right: 8px;
 }
 
-.button-option:hover,
-.button-option:focus {
-  background: var(--main-color-blue-);
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  color: #FFFFFF;
-}
-
 .button-option {
   font-weight: 500;
   font-size: 16px;
@@ -721,6 +688,12 @@ button {
   cursor: pointer;
   -webkit-transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715), background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
   transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715), background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.button-option:hover, .button-option:focus {
+  background: var(--main-color-blue-);
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: #FFFFFF;
 }
 
 .section-gallary {
@@ -773,10 +746,16 @@ button {
   background-color: #FFFFFF;
 }
 
-.gallary-link:hover .gallary-top-text,
-.gallary-link:focus .gallary-top-text {
+.gallary-link {
+  display: block;
+}
+.gallary-link:focus .gallary-top-text, .gallary-link:hover .gallary-top-text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+.gallary-link:hover, .gallary-link:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .gallary-box {
@@ -833,20 +812,6 @@ button {
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   background: #FFFFFF;
-}
-
-.gallary-link {
-  display: block;
-}
-
-.gallary-link:hover {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.gallary-link:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .backdrop {

@@ -25,3 +25,19 @@ margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.section-hero {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2F303A;
+    padding: 200px 0;
+    text-align: center;
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../images/backgound.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

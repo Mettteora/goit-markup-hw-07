@@ -73,20 +73,17 @@ transition: fill 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
-}
 
-.team-link:hover,
-.team-link:focus
-{
-    background-color:var(--main-color-blue-);
-}
-
-.team-link:hover .team-icon,
-.team-link:focus .team-icon{
-    fill: var(--main-color-);
+    &:hover,
+    &:focus{
+     background-color:var(--main-color-blue-);}
+ &:hover .team-icon,
+ &:focus .team-icon{
+      fill: var(--main-color-);
     border-color: var(--main-color-blue-);
-   
+ }
 }
+
 
 .team-list-icon + .team-list-icon{
     margin-left: 10px;

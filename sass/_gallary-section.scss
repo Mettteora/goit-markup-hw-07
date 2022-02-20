@@ -44,11 +44,17 @@ color: #FFFFFF;
     background-color: #FFFFFF;
 }
 
-.gallary-link:hover .gallary-top-text,
-.gallary-link:focus .gallary-top-text{
-transform: translateY(0);
+.gallary-link{
+    display: block; 
+    &:focus .gallary-top-text,
+    &:hover .gallary-top-text{
+                            transform: translateY(0);}
+            &:hover,
+            &:focus{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 }
-
 
 .gallary-box{
 display: flex;
@@ -104,18 +110,6 @@ letter-spacing: 0.03em;
     border-bottom: 1px solid #EEEEEE;
     background: #FFFFFF;
 }
-.gallary-link{
-    display: block; 
-}
 
 
 
-.gallary-link:hover{
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.gallary-link:focus{
-     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
