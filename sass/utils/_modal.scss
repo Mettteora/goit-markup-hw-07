@@ -33,56 +33,7 @@ transform: translate(-50%,-50%);
 
 
 
-.sub-box{
-    margin-left: 93px;
-}
 
-.sub-form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.sub-input {
-    width: 358px;
-    height: 50px;
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 0.8;
-    align-items: center;
-    letter-spacing: 0.03em;
-    padding-left: 16px;
-    color: rgba(255, 255, 255, 0.6);
-    
-    
-}
-
-.sub-btn{
-    width: 200px;
-    height: 50px;
-    background-color: var(--main-color-blue-);
-    color: var(--main-color-);
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 30px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    border-radius: 4px;
-     display: inline-flex;
-     justify-content: center;
-
-}
-
-.sub-icon{
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-}
 
 .modal-icon-box{
     position: relative;
@@ -231,25 +182,8 @@ color: #212121;
 }
 
 
-.sub-title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-}
 
-.sub-box-flex{
-    display: flex;
-    
-}
-.test-box{
-    display: flex;
-    margin-left: 12px;
-}
+
 
 .modal-checkbox{
     margin-top: 20px;

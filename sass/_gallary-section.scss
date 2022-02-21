@@ -3,19 +3,19 @@
     padding-bottom: 94px;
 }
 
-.gallary-list {
+.gallary__list {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
     margin-bottom: -30px;
 }
 
-.gallary-wrap{
+.gallary__wrap{
     position: relative;
     overflow: hidden;
 }
 
-.gallary-top-text{
+.gallary__top-text{
 position: absolute;
 top: 0;
 left: 0;
@@ -30,10 +30,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 28px;
-/* or 156% */
-
 letter-spacing: 0.03em;
-
 color: #FFFFFF;
 }
 
@@ -44,7 +41,7 @@ color: #FFFFFF;
     background-color: #FFFFFF;
 }
 
-.gallary-link{
+.gallary__link{
     display: block; 
     &:focus .gallary-top-text,
     &:hover .gallary-top-text{
@@ -60,7 +57,7 @@ color: #FFFFFF;
 display: flex;
 }
 
-.title-gallary {
+.gallary__title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -68,7 +65,7 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 
-.gallary-text { 
+.gallary__text { 
 font-weight: normal;
 font-size: 16px;
 line-height: 1.87;
@@ -88,16 +85,6 @@ letter-spacing: 0.03em;
     height: 184px;
 }
 
-.title-clients{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
 
 .box-div{
     padding-top: 20px;
