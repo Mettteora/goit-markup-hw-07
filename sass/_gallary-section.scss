@@ -43,8 +43,8 @@ color: #FFFFFF;
 
 .gallary__link{
     display: block; 
-    &:focus .gallary-top-text,
-    &:hover .gallary-top-text{
+    &:focus .gallary__top-text,
+    &:hover .gallary__top-text{
                             transform: translateY(0);}
             &:hover,
             &:focus{

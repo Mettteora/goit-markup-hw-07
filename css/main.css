@@ -855,7 +855,7 @@ button {
 .gallary__link {
   display: block;
 }
-.gallary__link:focus .gallary-top-text, .gallary__link:hover .gallary-top-text {
+.gallary__link:focus .gallary__top-text, .gallary__link:hover .gallary__top-text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
