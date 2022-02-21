@@ -1,8 +1,8 @@
-.description-list {
+.description-section__list {
     display: flex;
 }
 
-.description-box{
+.description-section__icon-box{
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
@@ -12,11 +12,11 @@
     justify-content: center;
 }
 
-.description-item:not( :last-child){
+.description-section__item:not( :last-child){
      margin-right: 30px;
 }
 
-.description-title {
+.description-section__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.71;
@@ -26,11 +26,10 @@
     margin-bottom: 10px;
 }
 
-.description-text {
+.description-section__text {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    
     width: 270px;
 }

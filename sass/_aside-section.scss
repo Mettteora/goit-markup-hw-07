@@ -1,5 +1,14 @@
-.aside-section {
+.aside-section__title {
    padding-top: 0;
+   font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+color: #212121;
 
 }
 
@@ -13,11 +22,11 @@
     color: #212121;
     margin-bottom: 50px;
 }
-.aside-list {
+.aside-section__list {
     display: flex;
 }
 
-.aside-post-text{
+.aside-section__text{
     bottom: 0;
     left: 0;
     position: absolute;
@@ -34,9 +43,9 @@
    justify-content: center;
 }
 
-.aside-item{
+.aside-section__item{
     position: relative;
 }
-.aside-item:not( :last-child){
+.aside-section__item:not( :last-child){
     margin-right: 30px;
 }
