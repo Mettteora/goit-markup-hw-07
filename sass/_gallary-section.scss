@@ -4,10 +4,11 @@
 }
 
 .gallary__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -30px;
-    margin-bottom: -30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -30px;
+        margin-bottom: -30px;
+       
 }
 
 .gallary__wrap{
@@ -32,6 +33,14 @@ font-size: 18px;
 line-height: 28px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+    .gallary__link:focus &,
+    .gallary__link:hover &{
+                            transform: translateY(0);}
+            &:hover,
+            &:focus{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 }
 
 
@@ -43,14 +52,7 @@ color: #FFFFFF;
 
 .gallary__link{
     display: block; 
-    &:focus .gallary__top-text,
-    &:hover .gallary__top-text{
-                            transform: translateY(0);}
-            &:hover,
-            &:focus{
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-    }
+   
 }
 
 .gallary-box{
@@ -80,10 +82,10 @@ letter-spacing: 0.03em;
     color: var(--main-color-);
 }
 
-.clinets-box{
-    width: 1170px;
-    height: 184px;
-}
+// .clinets-box{
+//     width: 1170px;
+//     height: 184px;
+// }
 
 
 .box-div{

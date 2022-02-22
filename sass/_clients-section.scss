@@ -1,7 +1,20 @@
 .section-clients__clients-list {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    // display: flex;
+    // justify-content: center;
+    // margin-top: 50px;
+      @media screen and (min-width: 480px) {
+            width: 450px;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+             }
+      @media screen and (min-width: 768px){
+          flex-wrap: nowrap;
+           display: flex;
+      }
+      @media screen and (min-width: 1200px) {
+      display: flex;
+         }
    
 }
 .clients-item {
@@ -15,16 +28,19 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 28px;
+    line-height: 33px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-left: 83px;
+    margin-bottom: 30px;
 }
 
 
-.clients-item:not( :last-child) {
+.clients-item{
 margin-right: 30px;
+margin-bottom: 30px;
 }
 
 
