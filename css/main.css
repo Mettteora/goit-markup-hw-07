@@ -593,9 +593,20 @@ button {
   }
 }
 
-.clients-item {
-  width: 170px;
-  height: 92px;
+@media screen and (min-width: 480px) {
+  .clients-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-item {
+    width: 170px;
+    height: 92px;
+  }
 }
 
 .section-clients__title-clients {
@@ -607,7 +618,6 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-left: 83px;
   margin-bottom: 30px;
 }
 

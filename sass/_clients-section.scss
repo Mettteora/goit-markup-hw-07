@@ -18,8 +18,16 @@
    
 }
 .clients-item {
-    width: 170px;
+    @media screen and (min-width: 480px) {
+            // width: 210px;
+            display: flex;
+            flex-wrap: wrap;
+             }
+    @media screen and (min-width: 1200px) {
+      width: 170px;
     height: 92px;
+         }
+    
 }
 
 
@@ -33,7 +41,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-left: 83px;
+    // padding-left: 58px;
     margin-bottom: 30px;
 }
 
